@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Rachel Hines | Personal Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Rachel Hines Portfolio</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Developing Skills</a></li>
+        <li><a href="#projects" class="nav-link">Personal Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+   
+      <img
+        src="rachel-photo.jpg"
+        alt="Picture of Rachel Hines"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hi everyone, I'm Rachel! I'm a freshman at University of Washington-Seattle 
+          studying Computer Science. I'm a highly innovative, passionate, and motivated
+          individual, and I'm excited to dive more into web development!
+        </p>
+      </div>
+</section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I'm from Issaquah, Washington, but was born in Kirkland, WA. I love 
+        the outdoors, whether its hiking, boating, or biking! Nothing beats 
+        the beauty of the PNW. In my spare time, I love hanging out with friends or partaking
+        in some of my hobbies from baking to photography!
+      </p>
+      <p>
+        I'm passionate about utilizing technology to improve my community. I possess excellent 
+        analytical and interpersonal skills with a demonstrated commitment to excellence. I am 
+        dedicated to leveraging my strong organizational abilities and leadership skills to collaborate 
+        with others.
+      </p>
+      <p>
+        Currently, I'm a part of UW's Society of Women Engineers club on the Community Outreach Committee. 
+        I hope to join UW's WebImpact to not only expand my website development skills, but also form a community 
+        of passionate and engaging people!
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Recent Projects I've Made</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="forest-photo.jpg"
+            alt="sample project 1"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">01 Example</h3>
+          <p class="project-details">
+            Quisque rutrum. Aenean imperdiet. Etiam ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus aut saepe.
+          </p>
+          <a href="project-one.html" #F0F4EF>View the Project!</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="forest-photo.jpg"
+            alt="sample project 2"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">02 Example</h3>
+          <p class="project-details">
+            Quisque rutrum. Aenean imperdiet. Etiam ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus aut saepe.
+          </p>
+          <a href="project-two.html" class="project-link">View the Project!</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="forest-photo.jpg"
+            alt="sample project 3"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">03 Project</h3>
+          <p class="project-details">
+            Quisque rutrum. Aenean imperdiet. Etiam ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus aut saepe.
+          </p>
+          <a href="project-three.html" class="project-link">View the Project!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+            <div class="form-control">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="subject">Subject:</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject-title"
+                placeholder="Enter Your Subject"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Contact Me"
+              id="submit-btn"
+              class="submit-btn"
+            />
+        </div>
+      </div>
+    </section>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
